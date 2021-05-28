@@ -1,0 +1,18 @@
+<suite name="suit1"  parallel="tests" thread-count="2">
+
+    <test name="test1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="runners.RunnerCrossBrowser"></class>
+        </classes>
+    </test>
+
+
+    <test name="test2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="runners.RunnerCrossBrowser"></class>
+        </classes>
+    </test>
+
+</suite>
